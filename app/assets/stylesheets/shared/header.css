@@ -2,11 +2,16 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 .top-page-header {
   width: 100vw;
-  padding: 2vh 15vw;
+  padding: 2vh 10vw;
   display: flex;
   flex-direction: column;
+  background-color: #356bb1;
 }
 
 .search-bar-contents {
@@ -15,13 +20,16 @@
   align-items: center;
 }
 
-.furima-icon {
-  width: 10vw;
-  margin-right: 10vw;
+.portfolio-title {
+  width: 22vw;
+  margin-right: 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .search-form {
-  width: 65vw;
+  width: 35vw;
   height: 5vh;
   display: flex;
   margin-bottom: 5px;
@@ -45,60 +53,35 @@
   width: 100%;
 }
 
-.nav {
+/* .nav {
   font-size: 18px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
   padding: 1vh 0;
-}
+} */
 
-.lists-left {
+.lists-right {
   display: flex;
-  min-width: 200px;
-
+  /* min-width: 18px; */
+  font-size: 18px;
+  list-style: none;
 }
 
 .category-list {
   text-decoration: none;
   margin-right: 3vw;
-  color: #333333;
+  color: white;
+  text-decoration: none;
 }
 
 .brand-list {
+  color: white;
   text-decoration: none;
-  color: #333333;
 }
 
-.lists-right {
+/* .lists- {
   display: flex;
-  list-style: none;
   align-items: flex-end;
-}
-
-
-.user-nickname {
-  text-decoration: none;
-  margin-right: 3vw;
-  color: #333333;
-  font-weight: bold;
-}
-
-
-.logout {
-  text-decoration: none;
-  color: #333333;
-}
-
-.login {
-  text-decoration: none;
-  line-height: 32px;
-  margin-right: 3vw;
-  color: #333333;
-}
-
-.sign-up {
-  text-decoration: none;
-  color: #333333;
-}
+} */
