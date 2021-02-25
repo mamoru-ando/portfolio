@@ -1,11 +1,14 @@
-html,body{
-  height:100%;
+body{
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 25px;
+  box-sizing: border-box;
 }
 
-.footer {
+footer {
   width: 100vw;
   height:25px;
   background-color: #39a0c9;
-  position:absolute;
-  bottom:0;
+  position: absolute;
+  bottom: 0;
 }
