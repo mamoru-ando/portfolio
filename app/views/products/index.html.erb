@@ -1,11 +1,12 @@
-<%= render "shared/header" %>
+<div class="container">
+  <%= render "shared/header" %>
 
-<div class="top-page">
   <div class="title">
     <p>飲食人からエンジニアへ</p>
     <p>安藤護ポートフォリオ</p>
   </div>
 
+  <div class="products-title">製作物一覧</div>
   <div class="products">
     <div class="product1">
       <%= link_to 'https://github.com/mamoru-ando/customer_info/blob/master/README.md' do %>
@@ -16,6 +17,7 @@
       <% end %>
     </div>
   </div>
-</div>
+  <div class="push"></div>
 
-<%= render "shared/footer" %>
+  <%= render "shared/footer" %>
+</div>

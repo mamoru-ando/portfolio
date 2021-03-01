@@ -1,20 +1,38 @@
-.top-page{
-  background-image: image-url('photo-reaf.jpeg');
-  background-position: top center;
-  height: 400px;
+.container{
+  position: relative;
 }
 
-.title{
+.title {
+  background-image: image-url('photo-leaf.jpeg');
+  background-position: top center;
+  // background-color: brown;
+  height: 350px;
   color: white;
-  justify-content: center;
-  font-size: 60px;
-  padding: 5vh 15vw;
+  /* justify-content: center; */
+  font-size: 55px;
+  padding: 3vh 15vw;
+}
+
+.products-title {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px;
+}
+
+.products {
+  margin-bottom: 25px;
 }
 
 .product1{
+  width: 370px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  border: solid 1px black;
+  padding: 15px;
+}
 
+.push {
+  height: 25px;
 }
