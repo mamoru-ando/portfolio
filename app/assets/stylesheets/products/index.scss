@@ -5,12 +5,18 @@
 .title {
   background-image: image-url('photo-leaf.jpeg');
   background-position: top center;
-  // background-color: brown;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 350px;
   color: white;
   /* justify-content: center; */
   font-size: 55px;
   padding: 3vh 15vw;
+}
+
+.title-text {
+  font-size: 8vh;
+  line-height: 30px;
 }
 
 .profile {
