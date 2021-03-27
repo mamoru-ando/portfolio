@@ -1,11 +1,5 @@
-
-footer {
-  width: 100vw;
-  height:25px;
-  background-color: #39a0c9;
+.footer {
   position: absolute;
   bottom: 0;
-  text-align: center;
-  color: white;
-  font-size: 15px;
+  width: 100%;
 }
