@@ -6,12 +6,18 @@ body {
   margin: 0;
 }
 
-.top-page-header {
-  width: 100vw;
-  padding: 2vh 10vw;
-  display: flex;
-  flex-direction: column;
+.navbar {
+  // width: 100vw;
+  height: 80px;
+  // padding: 2vh 10vw;
+  /* display: flex; */
+  /* flex-direction: column; */
   background-color: #39a0c9;
+  // margin: 0%;
+}
+
+.navbar-brand {
+  color: white;
 }
 
 .search-bar-contents {
