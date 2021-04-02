@@ -1,43 +1,43 @@
-<div class="container">
-  <%= render "shared/header" %>
+<%= render "shared/header" %>
+  <div class="container">
 
-  <div class="title">
-    <p class="title-text">
-      飲食人からエンジニアへ</p>
-    <p class="title-text">
-      安藤護ポートフォリオ</p>
-  </div>
-
-  <div class="profile">
-    <h1 class="prolife-title">自己紹介</h1>
-    <div class="profile-article">
-    はじめまして、ご覧いただきありがとうございます！<br>
-    神奈川県在住の安藤護と申します。<br>
-    飲食業に11年ほど従事していましたが、家業の手伝いと新型コロナウイルスの影響をきっかけに、<br>
-    2020年11月にプログラミングスクールを受講して転職活動中です。<br>
-    現在はITパスポートの学習とRubyをメインに学習しております。<br>
-    このページもRuby on Railsを使用して作成しました。
+    <div class="title">
+      <p class="title-text">
+        飲食人からエンジニアへ</p>
+      <p class="title-text">
+        安藤護ポートフォリオ</p>
     </div>
-  </div>
 
-  <h1 class="products-title">製作物一覧</h1>
-  <div class="products">
-    <div class="product1">
-      <%= link_to 'https://cliente-customer-info.herokuapp.com/' do %>
-        <%= image_tag('Cliente-logo.png') %><br>
-        お客様の名前が思い出せなくても大丈夫！<br>
-        外見の特徴から検索できる顧客管理アプリ<br>
-        クリエンテ<br>
-      <% end %>
-      このアプリは接客を行っている時によく遭遇した<br>
-      「顔は覚えているのに、名前が思い出せない！」<br>
-      を解決するために作成しました。<br>
-      <%= link_to 'READMEはこちら', 'https://github.com/mamoru-ando/customer_info/blob/master/README.md' %><br>
-      テストID：test2@test<br>
-      テストPASS：a222222
+    <div class="profile">
+      <h1 class="prolife-title">自己紹介</h1>
+      <div class="profile-article">
+      はじめまして、ご覧いただきありがとうございます！<br>
+      神奈川県在住の安藤護と申します。<br>
+      飲食業に11年ほど従事していましたが、家業の手伝いと新型コロナウイルスの影響をきっかけに、<br>
+      2020年11月にプログラミングスクールを受講して転職活動中です。<br>
+      現在はITパスポートの学習とRubyをメインに学習しております。<br>
+      このページもRuby on Railsを使用して作成しました。
+      </div>
     </div>
-  </div>
-  <div class="push"></div>
 
-  <%= render "shared/footer" %>
-</div>
+    <h1 class="products-title">製作物一覧</h1>
+    <div class="products">
+      <div class="product1">
+        <%= link_to 'https://cliente-customer-info.herokuapp.com/' do %>
+          <%= image_tag('Cliente-logo.png') %><br>
+          お客様の名前が思い出せなくても大丈夫！<br>
+          外見の特徴から検索できる顧客管理アプリ<br>
+          クリエンテ<br>
+        <% end %>
+        このアプリは接客を行っている時によく遭遇した<br>
+        「顔は覚えているのに、名前が思い出せない！」<br>
+        を解決するために作成しました。<br>
+        <%= link_to 'READMEはこちら', 'https://github.com/mamoru-ando/customer_info/blob/master/README.md' %><br>
+        テストID：test2@test<br>
+        テストPASS：a222222
+      </div>
+    </div>
+    <div class="push"></div>
+
+  </div>
+<%= render "shared/footer" %>
